@@ -1,0 +1,22 @@
+body {
+    background-color: #fff;
+    color: #333;
+    font-size: 15px;
+}
+a {
+    border: solid 1px #ccc;
+    color: #333;
+    text-decoration: none;
+    transition: 0.5s;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: underline;
+    transition: 0.5s;
+}
