@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+body {
+  font-family: 'Nanum Myeongjo', serif;
+  color: #222;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin: 0px;
+}
+a{
+  color: #222;
+  text-decoration: none;
+  
+}
+.items{
+  text-align: center;
+}
+.item{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 7px;
+}
+	
+img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+.caption{
+  width: 300px;
+  height: 300px;
+  background-color: #222;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: 0.5s;
+}
+.item:hover .caption{
+  opacity: 0.85;
+}
+.caption a{
+  background-color: rgba(207, 255, 239, 0.936);
+  padding: 7px;
+  color: #222;
+  border-radius: 3px;
+  
+}
+.caption a:hover{
+  background-color: #fff;
+  
+}
